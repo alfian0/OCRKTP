@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage                = 'https://medium.com/@alpiopio'
     s.author                  = { 'alfian0' => 'alfian.official.mail@gmail.com' }
     s.license                 = { :type => 'MIT', :file => 'LICENSE' }
-    s.source                  = { :git => '', :tag => s.version }
+    s.source                  = { :git => 'https://github.com/alfian0/OCRKTP.git', :tag => s.version }
     s.source_files            = 'OCRKTP/**/*.{swift}'
     s.platform                = :ios
     s.swift_version           = '5.0'
