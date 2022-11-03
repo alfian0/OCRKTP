@@ -1,6 +1,0 @@
-framework module OCRKTP {
-  umbrella header "OCRKTP-umbrella.h"
-
-  export *
-  module * { export * }
-}

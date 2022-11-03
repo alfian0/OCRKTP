@@ -9,6 +9,6 @@ target 'KTPOCR' do
   project 'KTPOCR.xcodeproj'
 
   # Pods for KTPOCR
-  pod 'OCRKTP', :path => '.'
+  pod 'OCRKTP', :git => 'https://github.com/alfian0/OCRKTP.git'
 
 end
