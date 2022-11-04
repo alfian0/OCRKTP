@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum JobType: String, CaseIterable {
+public enum JobType: String, CaseIterable {
     case BelumTidakBekerja = "BELUM/TIDAK BEKERJA"
     case MengurusRumahTangga = "MENGURUS RUMAH TANGGA"
     case PelajarMahasiswa = "PELAJAR/MAHASISWA"

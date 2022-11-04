@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum NationalityType: String, CaseIterable {
+public enum NationalityType: String, CaseIterable {
     case wni = "WNI"
     case wna = "WNA"
 }

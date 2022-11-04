@@ -8,13 +8,13 @@
 import Foundation
 
 public struct DataNIKModel {
-    var nama: String?
-    var nik: String?
-    var pob: String?
-    var dob: Date?
-    var gender: GenderType?
-    var job: JobType?
-    var religion: ReligionType?
-    var marriedStatus: MarriedStatusType?
-    var nationality: NationalityType?
+    public var nama: String?
+    public var nik: String?
+    public var pob: String?
+    public var dob: Date?
+    public var gender: GenderType?
+    public var job: JobType?
+    public var religion: ReligionType?
+    public var marriedStatus: MarriedStatusType?
+    public var nationality: NationalityType?
 }

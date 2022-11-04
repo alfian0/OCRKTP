@@ -2,20 +2,15 @@ PODS:
   - OCRKTP (1.0.0)
 
 DEPENDENCIES:
-  - OCRKTP (from `https://github.com/alfian0/OCRKTP.git`)
+  - OCRKTP (from `.`)
 
 EXTERNAL SOURCES:
   OCRKTP:
-    :git: https://github.com/alfian0/OCRKTP.git
-
-CHECKOUT OPTIONS:
-  OCRKTP:
-    :commit: c7f7a01044c5fba19714debf77b556699d74ad86
-    :git: https://github.com/alfian0/OCRKTP.git
+    :path: "."
 
 SPEC CHECKSUMS:
   OCRKTP: 7610dc785989cf96e3b49c0ea06b4fee76d38f2e
 
-PODFILE CHECKSUM: 3cd6127c3a70ff494b1ef18cec862717844a5866
+PODFILE CHECKSUM: a2c5df75b9e7884536ef802f991fbc798f8e307d
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.11.2

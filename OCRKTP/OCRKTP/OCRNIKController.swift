@@ -95,11 +95,11 @@ public class OCRNIKController: UIViewController, AVCaptureVideoDataOutputSampleB
         
         view.addSubview(button)
         button.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        button.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: view.safeAreaInsets.bottom-8).isActive = true
+        button.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -8).isActive = true
         
         view.addSubview(image)
         image.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 8).isActive = true
-        image.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: view.safeAreaInsets.bottom-8).isActive = true
+        image.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -8).isActive = true
         
         image.addSubview(success)
         success.widthAnchor.constraint(equalToConstant: 24).isActive = true

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum GenderType: String, CaseIterable {
+public enum GenderType: String, CaseIterable {
     case LakiLaki = "LAKI-LAKI"
     case Perempuan = "PEREMPUAN"
 }

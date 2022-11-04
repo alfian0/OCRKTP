@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ReligionType: String, CaseIterable {
+public enum ReligionType: String, CaseIterable {
     case Islam = "ISLAM"
     case Kristen = "KRISTEN"
     case Katolik = "KATOLIK"

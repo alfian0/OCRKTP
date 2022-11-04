@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum MarriedStatusType: String, CaseIterable {
+public enum MarriedStatusType: String, CaseIterable {
     case BelumKawin = "BELUM KAWIN"
     case Kawin = "KAWIN"
     case CeraiHidup = "CERAI HIDUP"
